@@ -1,0 +1,314 @@
+/* Show percentage download progress */
+
+#downloads-indicator-progress-inner::before{
+  display: -moz-box;
+  font-size: 0.8em;
+}
+
+#downloads-indicator-progress-inner{
+  background: #0060df !important;
+  color: #FFFFFF !important;
+ font-weight: bold !important;
+  -moz-box-pack: center;
+}
+
+#downloads-button[style="--download-progress-pcent: 1%;"] #downloads-indicator-progress-inner::before{
+  content: "1";
+}
+#downloads-button[style="--download-progress-pcent: 2%;"] #downloads-indicator-progress-inner::before{
+  content: "2";
+}
+#downloads-button[style="--download-progress-pcent: 3%;"] #downloads-indicator-progress-inner::before{
+  content: "3";
+}
+#downloads-button[style="--download-progress-pcent: 4%;"] #downloads-indicator-progress-inner::before{
+  content: "4";
+}
+#downloads-button[style="--download-progress-pcent: 5%;"] #downloads-indicator-progress-inner::before{
+  content: "5";
+}
+#downloads-button[style="--download-progress-pcent: 6%;"] #downloads-indicator-progress-inner::before{
+  content: "6";
+}
+#downloads-button[style="--download-progress-pcent: 7%;"] #downloads-indicator-progress-inner::before{
+  content: "7";
+}
+#downloads-button[style="--download-progress-pcent: 8%;"] #downloads-indicator-progress-inner::before{
+  content: "8";
+}
+#downloads-button[style="--download-progress-pcent: 9%;"] #downloads-indicator-progress-inner::before{
+  content: "9";
+}
+#downloads-button[style="--download-progress-pcent: 10%;"] #downloads-indicator-progress-inner::before{
+  content: "10";
+}
+#downloads-button[style="--download-progress-pcent: 11%;"] #downloads-indicator-progress-inner::before{
+  content: "11";
+}
+#downloads-button[style="--download-progress-pcent: 12%;"] #downloads-indicator-progress-inner::before{
+  content: "12";
+}
+#downloads-button[style="--download-progress-pcent: 13%;"] #downloads-indicator-progress-inner::before{
+  content: "13";
+}
+#downloads-button[style="--download-progress-pcent: 14%;"] #downloads-indicator-progress-inner::before{
+  content: "14";
+}
+#downloads-button[style="--download-progress-pcent: 15%;"] #downloads-indicator-progress-inner::before{
+  content: "15";
+}
+#downloads-button[style="--download-progress-pcent: 16%;"] #downloads-indicator-progress-inner::before{
+  content: "16";
+}
+#downloads-button[style="--download-progress-pcent: 17%;"] #downloads-indicator-progress-inner::before{
+  content: "17";
+}
+#downloads-button[style="--download-progress-pcent: 18%;"] #downloads-indicator-progress-inner::before{
+  content: "18";
+}
+#downloads-button[style="--download-progress-pcent: 19%;"] #downloads-indicator-progress-inner::before{
+  content: "19";
+}
+#downloads-button[style="--download-progress-pcent: 20%;"] #downloads-indicator-progress-inner::before{
+  content: "20";
+}
+#downloads-button[style="--download-progress-pcent: 21%;"] #downloads-indicator-progress-inner::before{
+  content: "21";
+}
+#downloads-button[style="--download-progress-pcent: 22%;"] #downloads-indicator-progress-inner::before{
+  content: "22";
+}
+#downloads-button[style="--download-progress-pcent: 23%;"] #downloads-indicator-progress-inner::before{
+  content: "23";
+}
+#downloads-button[style="--download-progress-pcent: 24%;"] #downloads-indicator-progress-inner::before{
+  content: "24";
+}
+#downloads-button[style="--download-progress-pcent: 25%;"] #downloads-indicator-progress-inner::before{
+  content: "25";
+}
+#downloads-button[style="--download-progress-pcent: 26%;"] #downloads-indicator-progress-inner::before{
+  content: "26";
+}
+#downloads-button[style="--download-progress-pcent: 27%;"] #downloads-indicator-progress-inner::before{
+  content: "27";
+}
+#downloads-button[style="--download-progress-pcent: 28%;"] #downloads-indicator-progress-inner::before{
+  content: "28";
+}
+#downloads-button[style="--download-progress-pcent: 29%;"] #downloads-indicator-progress-inner::before{
+  content: "29";
+}
+#downloads-button[style="--download-progress-pcent: 30%;"] #downloads-indicator-progress-inner::before{
+  content: "30";
+}
+#downloads-button[style="--download-progress-pcent: 31%;"] #downloads-indicator-progress-inner::before{
+  content: "31";
+}
+#downloads-button[style="--download-progress-pcent: 32%;"] #downloads-indicator-progress-inner::before{
+  content: "32";
+}
+#downloads-button[style="--download-progress-pcent: 33%;"] #downloads-indicator-progress-inner::before{
+  content: "33";
+}
+#downloads-button[style="--download-progress-pcent: 34%;"] #downloads-indicator-progress-inner::before{
+  content: "34";
+}
+#downloads-button[style="--download-progress-pcent: 35%;"] #downloads-indicator-progress-inner::before{
+  content: "35";
+}
+#downloads-button[style="--download-progress-pcent: 36%;"] #downloads-indicator-progress-inner::before{
+  content: "36";
+}
+#downloads-button[style="--download-progress-pcent: 37%;"] #downloads-indicator-progress-inner::before{
+  content: "37";
+}
+#downloads-button[style="--download-progress-pcent: 38%;"] #downloads-indicator-progress-inner::before{
+  content: "38";
+}
+#downloads-button[style="--download-progress-pcent: 39%;"] #downloads-indicator-progress-inner::before{
+  content: "39";
+}
+#downloads-button[style="--download-progress-pcent: 40%;"] #downloads-indicator-progress-inner::before{
+  content: "40";
+}
+#downloads-button[style="--download-progress-pcent: 41%;"] #downloads-indicator-progress-inner::before{
+  content: "41";
+}
+#downloads-button[style="--download-progress-pcent: 42%;"] #downloads-indicator-progress-inner::before{
+  content: "42";
+}
+#downloads-button[style="--download-progress-pcent: 43%;"] #downloads-indicator-progress-inner::before{
+  content: "43";
+}
+#downloads-button[style="--download-progress-pcent: 44%;"] #downloads-indicator-progress-inner::before{
+  content: "44";
+}
+#downloads-button[style="--download-progress-pcent: 45%;"] #downloads-indicator-progress-inner::before{
+  content: "45";
+}
+#downloads-button[style="--download-progress-pcent: 46%;"] #downloads-indicator-progress-inner::before{
+  content: "46";
+}
+#downloads-button[style="--download-progress-pcent: 47%;"] #downloads-indicator-progress-inner::before{
+  content: "47";
+}
+#downloads-button[style="--download-progress-pcent: 48%;"] #downloads-indicator-progress-inner::before{
+  content: "48";
+}
+#downloads-button[style="--download-progress-pcent: 49%;"] #downloads-indicator-progress-inner::before{
+  content: "49";
+}
+#downloads-button[style="--download-progress-pcent: 50%;"] #downloads-indicator-progress-inner::before{
+  content: "50";
+}
+#downloads-button[style="--download-progress-pcent: 51%;"] #downloads-indicator-progress-inner::before{
+  content: "51";
+}
+#downloads-button[style="--download-progress-pcent: 52%;"] #downloads-indicator-progress-inner::before{
+  content: "52";
+}
+#downloads-button[style="--download-progress-pcent: 53%;"] #downloads-indicator-progress-inner::before{
+  content: "53";
+}
+#downloads-button[style="--download-progress-pcent: 54%;"] #downloads-indicator-progress-inner::before{
+  content: "54";
+}
+#downloads-button[style="--download-progress-pcent: 55%;"] #downloads-indicator-progress-inner::before{
+  content: "55";
+}
+#downloads-button[style="--download-progress-pcent: 56%;"] #downloads-indicator-progress-inner::before{
+  content: "56";
+}
+#downloads-button[style="--download-progress-pcent: 57%;"] #downloads-indicator-progress-inner::before{
+  content: "57";
+}
+#downloads-button[style="--download-progress-pcent: 58%;"] #downloads-indicator-progress-inner::before{
+  content: "58";
+}
+#downloads-button[style="--download-progress-pcent: 59%;"] #downloads-indicator-progress-inner::before{
+  content: "59";
+}
+#downloads-button[style="--download-progress-pcent: 60%;"] #downloads-indicator-progress-inner::before{
+  content: "60";
+}
+#downloads-button[style="--download-progress-pcent: 61%;"] #downloads-indicator-progress-inner::before{
+  content: "61";
+}
+#downloads-button[style="--download-progress-pcent: 62%;"] #downloads-indicator-progress-inner::before{
+  content: "62";
+}
+#downloads-button[style="--download-progress-pcent: 63%;"] #downloads-indicator-progress-inner::before{
+  content: "63";
+}
+#downloads-button[style="--download-progress-pcent: 64%;"] #downloads-indicator-progress-inner::before{
+  content: "64";
+}
+#downloads-button[style="--download-progress-pcent: 65%;"] #downloads-indicator-progress-inner::before{
+  content: "65";
+}
+#downloads-button[style="--download-progress-pcent: 66%;"] #downloads-indicator-progress-inner::before{
+  content: "66";
+}
+#downloads-button[style="--download-progress-pcent: 67%;"] #downloads-indicator-progress-inner::before{
+  content: "67";
+}
+#downloads-button[style="--download-progress-pcent: 68%;"] #downloads-indicator-progress-inner::before{
+  content: "68";
+}
+#downloads-button[style="--download-progress-pcent: 69%;"] #downloads-indicator-progress-inner::before{
+  content: "69";
+}
+#downloads-button[style="--download-progress-pcent: 70%;"] #downloads-indicator-progress-inner::before{
+  content: "70";
+}
+#downloads-button[style="--download-progress-pcent: 71%;"] #downloads-indicator-progress-inner::before{
+  content: "71";
+}
+#downloads-button[style="--download-progress-pcent: 72%;"] #downloads-indicator-progress-inner::before{
+  content: "72";
+}
+#downloads-button[style="--download-progress-pcent: 73%;"] #downloads-indicator-progress-inner::before{
+  content: "73";
+}
+#downloads-button[style="--download-progress-pcent: 74%;"] #downloads-indicator-progress-inner::before{
+  content: "74";
+}
+#downloads-button[style="--download-progress-pcent: 75%;"] #downloads-indicator-progress-inner::before{
+  content: "75";
+}
+#downloads-button[style="--download-progress-pcent: 76%;"] #downloads-indicator-progress-inner::before{
+  content: "76";
+}
+#downloads-button[style="--download-progress-pcent: 77%;"] #downloads-indicator-progress-inner::before{
+  content: "77";
+}
+#downloads-button[style="--download-progress-pcent: 78%;"] #downloads-indicator-progress-inner::before{
+  content: "78";
+}
+#downloads-button[style="--download-progress-pcent: 79%;"] #downloads-indicator-progress-inner::before{
+  content: "79";
+}
+#downloads-button[style="--download-progress-pcent: 80%;"] #downloads-indicator-progress-inner::before{
+  content: "80";
+}
+#downloads-button[style="--download-progress-pcent: 81%;"] #downloads-indicator-progress-inner::before{
+  content: "81";
+}
+#downloads-button[style="--download-progress-pcent: 82%;"] #downloads-indicator-progress-inner::before{
+  content: "82";
+}
+#downloads-button[style="--download-progress-pcent: 83%;"] #downloads-indicator-progress-inner::before{
+  content: "83";
+}
+#downloads-button[style="--download-progress-pcent: 84%;"] #downloads-indicator-progress-inner::before{
+  content: "84";
+}
+#downloads-button[style="--download-progress-pcent: 85%;"] #downloads-indicator-progress-inner::before{
+  content: "85";
+}
+#downloads-button[style="--download-progress-pcent: 86%;"] #downloads-indicator-progress-inner::before{
+  content: "86";
+}
+#downloads-button[style="--download-progress-pcent: 87%;"] #downloads-indicator-progress-inner::before{
+  content: "87";
+}
+#downloads-button[style="--download-progress-pcent: 88%;"] #downloads-indicator-progress-inner::before{
+  content: "88";
+}
+#downloads-button[style="--download-progress-pcent: 89%;"] #downloads-indicator-progress-inner::before{
+  content: "89";
+}
+#downloads-button[style="--download-progress-pcent: 90%;"] #downloads-indicator-progress-inner::before{
+  content: "90";
+}
+#downloads-button[style="--download-progress-pcent: 91%;"] #downloads-indicator-progress-inner::before{
+  content: "91";
+}
+#downloads-button[style="--download-progress-pcent: 92%;"] #downloads-indicator-progress-inner::before{
+  content: "92";
+}
+#downloads-button[style="--download-progress-pcent: 93%;"] #downloads-indicator-progress-inner::before{
+  content: "93";
+}
+#downloads-button[style="--download-progress-pcent: 94%;"] #downloads-indicator-progress-inner::before{
+  content: "94";
+}
+#downloads-button[style="--download-progress-pcent: 95%;"] #downloads-indicator-progress-inner::before{
+  content: "95";
+}
+#downloads-button[style="--download-progress-pcent: 96%;"] #downloads-indicator-progress-inner::before{
+  content: "96";
+}
+#downloads-button[style="--download-progress-pcent: 97%;"] #downloads-indicator-progress-inner::before{
+  content: "97";
+}
+#downloads-button[style="--download-progress-pcent: 98%;"] #downloads-indicator-progress-inner::before{
+  content: "98";
+}
+#downloads-button[style="--download-progress-pcent: 99%;"] #downloads-indicator-progress-inner::before{
+  content: "99";
+}
+#downloads-button[style="--download-progress-pcent: 100%;"] #downloads-indicator-progress-inner::before{
+  content: "100";
+}

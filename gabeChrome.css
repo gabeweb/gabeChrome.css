@@ -1,0 +1,138 @@
+@import "gabeChrome-extras";
+
+@namespace xul "http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul";
+@namespace html "http://www.w3.org/1999/xhtml";
+
+/* CUSTOMS BY GABE */
+
+/* GPL-3.9 Copyright (C) 2007 Timvde/UserChrome-Tweaks; Code pulled from https://github.com/Timvde/UserChrome-Tweaks */
+/*
+* Only show close buttons on background tabs when hovering with the mouse
+*
+* Contributor(s): Timvde
+*/
+
+.tabbrowser-tab:not([selected]):not([pinned]) .tab-close-button {
+  display: none !important;
+}
+
+.tabbrowser-tab:not([selected]):not([pinned]):hover .tab-close-button {
+  display: -moz-box !important;
+}
+
+.tab-close-button {
+  transition: fill-opacity var(--animation-speed) !important;
+  /*fill: #ff3131 !important;*/
+}
+
+/* urlbar-go-button */
+#urlbar:active #urlbar-go-button,
+#urlbar:hover #urlbar-go-button,
+#urlbar:not(.hidden-focus)[focused="true"] #urlbar-go-button {
+  display: inherit !important;
+}
+
+#urlbar-go-button,
+#urlbar-input-container:hover #urlbar-go-button {
+  fill: #30e60b !important;
+}
+
+/* show tab manager button even when tabs aren't overflowing -
+ can instead use browser.tabs.tabmanager.enabled;true as well
+ or skip this part if you want to retain the default behaviour */
+#alltabs-button {
+  display: -moz-box !important;
+}
+
+/* tab counter */
+#TabsToolbar-customization-target {
+  counter-reset: tabCount;
+}
+
+.tabbrowser-tab {
+  counter-increment: tabCount;
+}
+
+#alltabs-button > .toolbarbutton-badge-stack > .toolbarbutton-icon {
+  visibility: collapse !important;
+}
+
+#alltabs-button > .toolbarbutton-badge-stack {
+  position: relative !important;
+}
+
+#alltabs-button > .toolbarbutton-badge-stack::before {
+  content: counter(tabCount);
+  color: var(--toolbar-bgcolor, inherit);
+  background-color: var(--toolbar-color, inherit);
+  border-right: 2px solid var(--toolbar-bgcolor);
+  border-bottom: 2px solid var(--toolbar-bgcolor);
+  box-shadow: var(--toolbar-color, inherit) 2px 2px 0px;
+  opacity: var(--toolbarbutton-icon-fill-opacity);
+  position: absolute;
+  bottom: var(--toolbarbutton-inner-padding);
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0 6px;
+  font-weight: bold !important;
+}
+
+/* VERIFY ICON GRAY TO GREEN */
+
+#identity-box[pageproxystate="valid"].verifiedDomain #identity-icon,
+#identity-box[pageproxystate="valid"].mixedActiveBlocked #identity-icon {
+  -moz-context-properties: fill;
+  fill: #30e60b !important;
+}
+
+/* Move Find Bar above the page*/
+.browserContainer > findbar {
+  -moz-box-ordinal-group: 0;
+}
+
+/* Status Panel */
+
+#statuspanel-label {
+  color: #ffffff !important;
+  background-color: #0078d7 !important;
+  border-color: rgba(0, 118, 214, 0.8) !important;
+}
+
+/* Hide the email address */
+#appMenu-fxa-status2[fxastatus="signedin"] #appMenu-header-description {
+    opacity: 0 !important;
+}
+
+/* Inject and position the text */
+#appMenu-fxa-status2[fxastatus="signedin"] #appMenu-fxa-label2::before {
+    content: "Firefox Account" !important;
+    position: absolute !important;
+    top: 18px !important;
+    left: calc(8px + 8px) !important;
+    pointer-events: none !important;
+}
+
+/* Grid view for overflow menu */
+
+#widget-overflow-list,
+#widget-overflow-fixed-list,
+#customization-panelHolder > #widget-overflow-fixed-list:not(:empty) {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;  
+}
+#widget-overflow-fixed-list > .toolbarbutton-1,
+#widget-overflow-list > .toolbarbutton-1 {
+  width: 48px !important;
+  height: 48px;
+}
+#widget-overflow-list .toolbarbutton-text,
+#widget-overflow-fixed-list .toolbarbutton-text {
+  display: none;
+}
+
+widget-overflow-list .toolbarbutton-1 image,
+#widget-overflow-fixed-list .toolbarbutton-1 image {
+  height: 20px !important; /* Change this to your preferred height */
+  width: 20px !important; /* Change this to your preferred width */
+}
