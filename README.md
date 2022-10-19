@@ -5,6 +5,8 @@
 
 Minimal customizations for modern versions of [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/) and [LibreWolf](https://librewolf.net/).
 
+**Free download [from here](https://github.com/gabeweb/gabeChrome.css/archive/refs/heads/main.zip)!** 
+
 ## Key Features
 
 ![gabeChrome.css and go-buttom in URL bar](images/gabechrome-202210-go_button.png)
