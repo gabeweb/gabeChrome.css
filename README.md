@@ -43,3 +43,7 @@ Minimal customizations for modern versions of [Mozilla Firefox](https://www.mozi
 ## Credits
 
 Not for me but the whole [r/FirefoxCSS](https://www.reddit.com/r/firefoxcss/) community always helping to make Firefox (and LibreWolf) our own.
+
+---
+
+[more from stuff from [GABEweb @ GitHub](https://gabeweb.github.io)]
