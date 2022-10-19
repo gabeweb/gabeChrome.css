@@ -46,4 +46,4 @@ Not for me but the whole [r/FirefoxCSS](https://www.reddit.com/r/firefoxcss/) co
 
 ---
 
-[more from stuff from [GABEweb @ GitHub](https://gabeweb.github.io)]
+[more stuff from [GABEweb @ GitHub](https://gabeweb.github.io)]
