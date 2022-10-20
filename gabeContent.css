@@ -1,0 +1,13 @@
+.search-inner-wrapper {
+    display:none !important;
+}
+
+/* if you want to hide the search bar only in private window then use this instead:
+
+@-moz-document url("about:privatebrowsing"){
+    .search-inner-wrapper {
+        display:none !important;
+    }
+}
+
+*/

@@ -100,26 +100,25 @@
 
 /* Hide the email address */
 #appMenu-fxa-status2[fxastatus="signedin"] #appMenu-header-description {
-    opacity: 0 !important;
+  opacity: 0 !important;
 }
 
 /* Inject and position the text */
 #appMenu-fxa-status2[fxastatus="signedin"] #appMenu-fxa-label2::before {
-    content: "Firefox Account" !important;
-    position: absolute !important;
-    top: 18px !important;
-    left: calc(8px + 8px) !important;
-    pointer-events: none !important;
+  content: "Firefox Account" !important;
+  position: absolute !important;
+  top: 18px !important;
+  left: calc(8px + 8px) !important;
+  pointer-events: none !important;
 }
 
 /* Grid view for overflow menu */
 
 #widget-overflow-list,
-#widget-overflow-fixed-list,
-#customization-panelHolder > #widget-overflow-fixed-list:not(:empty) {
-  display: grid;
+#widget-overflow-fixed-list {
+  display: grid !important;
   grid-template-columns: repeat(5, 1fr);
-  justify-items: center;  
+  justify-items: center;
 }
 #widget-overflow-fixed-list > .toolbarbutton-1,
 #widget-overflow-list > .toolbarbutton-1 {
