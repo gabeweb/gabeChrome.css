@@ -35,15 +35,15 @@ Minimal customizations for modern versions of [Mozilla Firefox](https://www.mozi
 
 1. Your must enable via `about:config` the `toolkit.legacyUserProfileCustomizations.stylesheets` in Mozilla Firefox or LibreWolf.
 
-2. Save the `gabeChrome.css` and `gabeContent.css` files as your `userChrome.css` and ``userContent.css` (if you don't have another `userChrome.css` and `userContent.css` previously, otherwise you can import it into your actual style files) and the `gabeChrome-extras.css`file, all of them in the `chrome` folder of your profile directory: `Roaming\Mozilla\Firefox\Profiles\[User]\chrome` ==> `(%APPDATA%\Mozilla\Firefox\Profiles\` on Windows or go to `about:profiles` in Firefox/LibreWolf and locate the `Roaming` folder of your profile.
-
->> For more details please refer to: *[Firefox advanced customization and configuration options](https://support.mozilla.org/en-US/kb/firefox-advanced-customization-and-configuration#firefox:win10:fx106)* and *[Profiles - Where Firefox stores your bookmarks, passwords and other user data](https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data)* in the official [Firefox Help](https://support.mozilla.org/en-US/questions).
+2. Save the `gabeChrome.css` and `gabeContent.css` files as your `userChrome.css` and ``userContent.css` (if you don't have another `userChrome.css` and `userContent.css` previously, otherwise you can import it into your actual style files) and the `gabeChrome-extras.css`file, all of them in the `chrome` folder of your profile directory: `Roaming\Mozilla\Firefox\Profiles\[User]\chrome` ==> `(%APPDATA%\Mozilla\Firefox\Profiles\` on Windows or go to `about:profiles` in Firefox/LibreWolf and locate the `Roaming` folder of your profile.[^1]
 
 3. Restart your browser and enjoy.
 
 ## Credits
 
 Not for me but the whole [r/FirefoxCSS](https://www.reddit.com/r/firefoxcss/) community always helping to make Firefox (and LibreWolf) our own.
+
+[^1]:For more details please refer to: *[Firefox advanced customization and configuration options](https://support.mozilla.org/en-US/kb/firefox-advanced-customization-and-configuration#firefox:win10:fx106)* and *[Profiles - Where Firefox stores your bookmarks, passwords and other user data](https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data)* in the official [Firefox Help](https://support.mozilla.org/en-US/questions).
 
 ---
 
