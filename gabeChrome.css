@@ -37,6 +37,11 @@
   fill: #30e60b !important;
 }
 
+/* Hide border bottom of toolbox */
+#navigator-toolbox {
+	border-bottom: 0 !important;
+}
+
 /* show tab manager button even when tabs aren't overflowing -
  can instead use browser.tabs.tabmanager.enabled;true as well
  or skip this part if you want to retain the default behaviour */
