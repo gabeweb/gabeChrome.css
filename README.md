@@ -1,11 +1,11 @@
 # gabeChrome.css + gabeContent.css
 
 ![gabeChrome.css Main window](images/gabechrome-202210-main.png "gabeChrome.css Main window")
-<em>gabeChrome.css + [WaveFox](https://github.com/QNetITQ/WaveFox) in Mozilla Firefox Developer Edition 107 and [Better Dark Dracula](https://addons.mozilla.org/en-US/firefox/addon/better-dark-dracula/) theme</em>
+<em>gabeChrome.css + [WaveFox](https://github.com/QNetITQ/WaveFox) in Mozilla Firefox Developer Edition 107 and [Dracula X GABE](https://addons.mozilla.org/en-US/firefox/addon/dracula-x-gabe/) theme for Firefox</em>
 
 Minimal customizations for modern versions of [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/) and [LibreWolf](https://librewolf.net/).
 
-**Free download [from here](https://github.com/gabeweb/gabeChrome.css/archive/refs/heads/main.zip)!** 
+**Free download [from here](https://github.com/gabeweb/gabeChrome.css/archive/refs/heads/main.zip)!**
 
 ## Key Features
 
@@ -21,10 +21,13 @@ Minimal customizations for modern versions of [Mozilla Firefox](https://www.mozi
 - Hide the email address in the `hamburger menu`
 - Grid view for `overflow menu`
 - Show percentage download progress (experimental)
-- **NEW:** `userContent.css` file for hidding search box in default Firefox / LibreWolf page
+- **NEW:** `userContent.css` file for hiding search box in default Firefox / LibreWolf page
 
 ![Grid view for overflow pane](images/gabechrome-202210-overflow_pane.png)
 <em>Grid view for overflow pane</em>
+
+![Hiding email address in Firefox menu](images/gabechrome-202210-email_hidden.png)
+<em>Hiding email address in Firefox menu</em>
 
 ## Compatibility
 
