@@ -39,7 +39,7 @@
 
 /* Hide border bottom of toolbox */
 #navigator-toolbox {
-	border-bottom: 0 !important;
+  border-bottom: 0 !important;
 }
 
 /* show tab manager button even when tabs aren't overflowing -
@@ -139,4 +139,11 @@ widget-overflow-list .toolbarbutton-1 image,
 #widget-overflow-fixed-list .toolbarbutton-1 image {
   height: 20px !important; /* Change this to your preferred height */
   width: 20px !important; /* Change this to your preferred width */
+}
+
+/* Centered Bookmarks Bar */
+
+#PlacesToolbarItems {
+  display: flex !important;
+  justify-content: center !important;
 }
