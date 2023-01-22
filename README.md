@@ -21,7 +21,7 @@ Minimal customizations for modern versions of [Mozilla Firefox](https://www.mozi
 - Hide the email address in the `hamburger menu`
 - Grid view for `overflow menu`
 - Show percentage download progress (experimental)
-- **NEW:** `userContent.css` file for hiding search box in default Firefox / LibreWolf page
+- `userContent.css` file for hiding search box in default Firefox / LibreWolf page
 
 ![Grid view for overflow pane](images/gabechrome-202210-overflow_pane.png)
 <em>Grid view for overflow pane</em>
@@ -31,7 +31,7 @@ Minimal customizations for modern versions of [Mozilla Firefox](https://www.mozi
 
 ## Compatibility
 
-- As october 2022: tested in Mozilla Firefox 106+ / LibreWolf 105+
+- As January 2023: tested in Mozilla Firefox 109+ / LibreWolf 109
 - Can be used with other `userChrome.css` and `userContent.css` tweaks.
 
 ## How-To Apply?
